@@ -61,3 +61,37 @@
 .services__content-img {
   @apply drop-shadow-xl;
 }
+
+/* ===== TESTIMONIAL SECTION ===== */
+.testimonial__content {
+  @apply grid gap-8 p-8 bg-white rounded-lg transition-all duration-400;
+}
+.testimonial__content-comment {
+  @apply text-[15px] text-grey leading-text;
+}
+.testimonial__content-profile {
+  @apply flex items-center gap-4;
+}
+.testimonial__content-img {
+  @apply w-16;
+}
+.testimonial__content-name {
+  @apply text-[18px] text-black font-medium mb-1;
+}
+.testimonial__content-profession {
+  @apply text-[15px] text-grey;
+}
+/* swiper active */
+.testimonial__content.swiper-slide-active {
+  @apply shadow-lg;
+}
+/* swiper pagination */
+.testimonial__content .swiper-pagination {
+  position: initial;
+}
+.testimonial__content .swiper-pagination-bullet {
+  @apply w-2 h-2 bg-black bg-opacity-50 transition-all duration-400;
+}
+.testimonial__content .swiper-pagination-bullet-active {
+  @apply w-8 h-2 bg-black rounded-full;
+}
