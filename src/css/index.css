@@ -86,12 +86,12 @@
   @apply shadow-lg;
 }
 /* swiper pagination */
-.testimonial__content .swiper-pagination {
+.testimonial__container .swiper-pagination {
   position: initial;
 }
-.testimonial__content .swiper-pagination-bullet {
+.testimonial__container .swiper-pagination-bullet {
   @apply w-2 h-2 bg-black bg-opacity-50 transition-all duration-400;
 }
-.testimonial__content .swiper-pagination-bullet-active {
+.testimonial__container .swiper-pagination-bullet-active {
   @apply w-8 h-2 bg-black rounded-full;
 }
