@@ -95,3 +95,14 @@
 .testimonial__container .swiper-pagination-bullet-active {
   @apply w-8 h-2 bg-black rounded-full;
 }
+
+/* ===== CONTACT SECTION ===== */
+.contact__list {
+  @apply flex flex-col justify-center items-center gap-2;
+}
+.contact__item {
+  @apply inline-flex items-center gap-2 text-[15px] text-white;
+}
+.contact__item-check {
+  @apply inline-flex text-base;
+}
