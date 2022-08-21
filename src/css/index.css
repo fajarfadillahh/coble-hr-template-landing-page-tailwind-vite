@@ -49,3 +49,15 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+
+/* ===== SERVICES SECTION ===== */
+.services__content {
+  @apply grid gap-12;
+}
+.services__content-data,
+.services__content-img {
+  @apply text-center justify-self-center;
+}
+.services__content-img {
+  @apply drop-shadow-xl;
+}
