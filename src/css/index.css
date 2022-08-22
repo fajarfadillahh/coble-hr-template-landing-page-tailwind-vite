@@ -241,3 +241,41 @@
     @apply py-24;
   }
 }
+
+/* width 1120px */
+@screen xl {
+  .home__data {
+    @apply w-[800px];
+  }
+  .home__title {
+    @apply text-[48px];
+  }
+  .home__text {
+    @apply w-[650px] mx-auto;
+  }
+  .home__img {
+    @apply w-[900px];
+  }
+
+  .partner__text {
+    @apply text-[20px];
+  }
+  .partner__group {
+    @apply grid-cols-[repeat(6,max-content)] items-center;
+  }
+
+  .services__group {
+    @apply gap-32;
+  }
+
+  .contact__bg {
+    @apply py-0 bg-transparent;
+  }
+  .contact__container {
+    @apply p-24 bg-[#155aff] rounded-lg;
+  }
+
+  .footer__content {
+    @apply justify-self-center;
+  }
+}
