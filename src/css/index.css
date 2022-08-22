@@ -198,3 +198,46 @@
     @apply hidden;
   }
 }
+
+/* width 968px */
+@screen lg {
+  .section-title {
+    @apply text-[36px];
+  }
+
+  .header__container {
+    @apply relative;
+  }
+  .header__list {
+    @apply absolute left-[50%] translate-x-[-50%] gap-8;
+  }
+
+  .challenge__container {
+    @apply grid-cols-2 items-center;
+  }
+  .challenge__data,
+  .challenge__img {
+    @apply w-full;
+  }
+  .challenge__data {
+    @apply text-left justify-self-start order-2;
+  }
+
+  .services__content {
+    @apply grid-cols-2 items-center;
+  }
+  .services__content:nth-child(2) .services__content-data {
+    @apply order-2;
+  }
+  .services__content-data,
+  .services__content-img {
+    @apply w-full;
+  }
+  .services__content-data {
+    @apply text-left justify-self-start;
+  }
+
+  .contact__bg {
+    @apply py-24;
+  }
+}
