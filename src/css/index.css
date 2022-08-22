@@ -145,3 +145,40 @@
     @apply w-[400px];
   }
 }
+
+/* width 640px */
+@screen sm {
+  .section-title {
+    @apply text-[32px];
+  }
+
+  .home__data,
+  .partner__data,
+  .challenge__data,
+  .services__content-data,
+  .testimonial__data,
+  .contact__data {
+    @apply w-[500px];
+  }
+
+  .home__img,
+  .challenge__img,
+  .services__content-img {
+    @apply w-[500px];
+  }
+
+  .home__buttons,
+  .contact__buttons,
+  .contact__list {
+    @apply flex-row justify-center;
+  }
+
+  .partner__group {
+    @apply grid-cols-[repeat(3,max-content)];
+  }
+
+  .challenge__button,
+  .services__content-button {
+    @apply inline-flex;
+  }
+}
